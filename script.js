@@ -17,7 +17,7 @@ function randomBetween(min,max)
 
 var tl = new TimelineMax();
 
-for(var i = 0; i < 20; i++){
+for(var i = 0; i < 11; i++){
 
   var t = TweenMax.to(select('.bubble' + i), randomBetween(1, 1.5), {
     x: randomBetween(12, 15) * (randomBetween(-1, 1)),
